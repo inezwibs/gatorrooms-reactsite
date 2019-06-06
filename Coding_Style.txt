@@ -1,0 +1,25 @@
+
+-General rules for complex (compound) statements:
+
+    Put the opening bracket at the end of the first line.
+    Use one space before the opening bracket.
+    Put the closing bracket on a new line, without leading spaces.
+    Do not end a complex statement with a semicolon.
+
+-Always use the same naming convention for all your code. For example:
+
+    Variable and function names written as camelCase
+    Global variables written in UPPERCASE (We don't, but it's quite common)
+    Constants (like PI) written in UPPERCASE
+
+
+-If you have internal state and/or refs, prefer class extends React.Component over React.createClass. eslint: react/prefer-es6-class react/prefer-stateless-function
+
+-Follow these alignment styles for JSX syntax. eslint: react/jsx-closing-bracket-location react/jsx-closing-tag-location
+
+-Always use camelCase for prop names.
+
+
+>> https://www.w3schools.com/js/js_conventions.asp
+>> https://github.com/airbnb/javascript/tree/master/react
+
